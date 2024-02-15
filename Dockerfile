@@ -1,3 +1,3 @@
 FROM nginx:stable
 COPY ./nginx.conf /etc/nginx/nginx.conf
-COPY ./dist/* /usr/share/nginx/html/
+COPY ./dist/ng-personal-portfolio/browser/* /usr/share/nginx/html/
