@@ -1,0 +1,203 @@
+{
+  "experiences": [
+    {
+      "position": "ASSOCIATE LEAD PRODUCT ENGINEER I",
+      "timeline": "Jan 2024 - Present",
+      "company": "Vanenburg, Coimbatore, India",
+      "works": []
+    },
+    {
+      "position": "SOFTWARE ENGINEER II",
+      "timeline": "Jan 2022 - Dec 2023",
+      "company": "Vanenburg, Coimbatore, India",
+      "works": [
+        "Architectured new email receiver processing by integrating AWS Simple Email Service, AWS Simple Notification Service and AWS S3 Bucket with the platform which can process 1200+ emails per hour.",
+        "Optimized consignment processing by offloading time-consuming tasks like PDF generation, PDF Merging, webhook processing, etc., into background jobs, significantly increasing system performance by 45%.",
+        "Integrated modern payment gateway provider into the platform and offloaded the payment verification into background tasks thus reducing the time spent on payment by 30%.",
+        "Integrated platform payment features into the invoice app, streamlining payment collection processes.",
+        "Integrated email receiver app with AWS and implemented new UIs to manage the processed emails"
+      ]
+    },
+    {
+      "position": "SOFTWARE ENGINEER I",
+      "timeline": "Jan 2021 - Dec 2021",
+      "company": "Vanenburg, Coimbatore, India",
+      "works": [
+        "Implemented and handled 20+ core components/modules which includes but are not restricted to account, app schema, company, payment, pricing plan, jobs, transaction, user, webhook, etc.",
+        "Spearheaded and mentored several teams to implement core features like UI drag-and-drop form builder and Machine Learning/Deep Learning capabilities as part of platform module/component.",
+        "Handled and improved a lot of apps which are built on top of platform like invoice, expense, doc converter, email receiver etc., with new features thus improving the efficiency of customers ERP processing.",
+        "Authored 25+ migration and correction scripts to migrate/correct data on EMR HBase and Solr."
+      ]
+    },
+    {
+      "position": "ASSOCIATE SOFTWARE ENGINEER",
+      "timeline": "Jun 2019 - Dec 2021",
+      "company": "Vanenburg, Coimbatore, India",
+      "works": [
+        "Streamlined and strengthened consignment module to improve the sending/sharing of customer data within the platform(company/group/user), PSB(Peppol) and email.",
+        "Enhanced platform functionality by introducing 20+ new SOAP/Rest APIs and 10+ webhooks.",
+        "Engineered the order app which automates the process of creating an invoice from an order via UI.",
+        "Created Jasper XML report for invoice and order apps which will be used in PDF generation."
+      ]
+    },
+    {
+      "position": "TRAINEE ENGINEER (INTERNSHIP)",
+      "timeline": "Jan 2019 - May 2019",
+      "company": "Vanenburg, Coimbatore, India",
+      "works": [
+        "Enchanced HTML, CSS, JavaScript and Typescript skills along with Angular framework",
+        "Revamped the web platform schema designer with Angular 7 and improved its functionalies accourding to newer needs."
+      ]
+    }
+  ],
+  "certificates": [
+    "assets/certificates/Google Cloud Platform/Professional Cloud Developer",
+    "assets/certificates/AlgoExpert/AlgoExpert",
+    "assets/certificates/Angular/Angular - The Complete Guide",
+    "assets/certificates/deeplearning.ai/Coursera MFWS5KG9XKA4",
+    "assets/certificates/deeplearning.ai/Coursera T6YATDUBPX4Z",
+    "assets/certificates/deeplearning.ai/Coursera UBG727WXKVB4",
+    "assets/certificates/deeplearning.ai/Coursera UGEQVYSFQGBB",
+    "assets/certificates/deeplearning.ai/Coursera VC4NBMGGNDEM",
+    "assets/certificates/deeplearning.ai/Coursera W22KDD7569D5",
+    "assets/certificates/Java Design Patterns & SOLID Design Principles/Java Design Patterns & SOLID Design Principles",
+    "assets/certificates/MongoDB/mongo-m001",
+    "assets/certificates/MongoDB/mongo-m220p",
+    "assets/certificates/Programming for Everybody/Coursera 4UGTADYAUGLP",
+    "assets/certificates/Programming for Everybody/Coursera B7QTBGM2K8EZ",
+    "assets/certificates/Programming for Everybody/Coursera D2Q3VN6YND3L",
+    "assets/certificates/Programming for Everybody/Coursera FXHA3QJFRK9E"
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "percent": "80",
+      "color": "red"
+    },
+    {
+      "name": "C++",
+      "percent": "75",
+      "color": "red"
+    },
+    {
+      "name": "Python",
+      "percent": "70",
+      "color": "red"
+    },
+    {
+      "name": "C",
+      "percent": "60",
+      "color": "red"
+    },
+    {
+      "name": "Rust",
+      "percent": "50",
+      "color": "red"
+    },
+    {
+      "name": "HTML",
+      "percent": "75",
+      "color": "blue"
+    },
+    {
+      "name": "CSS",
+      "percent": "70",
+      "color": "blue"
+    },
+    {
+      "name": "SCSS",
+      "percent": "60",
+      "color": "blue"
+    },
+    {
+      "name": "JavaScript",
+      "percent": "80",
+      "color": "blue"
+    },
+    {
+      "name": "TypeScript",
+      "percent": "70",
+      "color": "blue"
+    },
+    {
+      "name": "HBase",
+      "percent": "70",
+      "color": "green"
+    },
+    {
+      "name": "Solr",
+      "percent": "70",
+      "color": "green"
+    },
+    {
+      "name": "PostgreSQL",
+      "percent": "70",
+      "color": "green"
+    },
+    {
+      "name": "MongoDB",
+      "percent": "60",
+      "color": "green"
+    },
+    {
+      "name": "RabbitMQ",
+      "percent": "50",
+      "color": "green"
+    },
+    {
+      "name": "Angular",
+      "percent": "80",
+      "color": "yellow"
+    },
+    {
+      "name": "Jenkins",
+      "percent": "60",
+      "color": "yellow"
+    },
+    {
+      "name": "SpringBoot",
+      "percent": "60",
+      "color": "yellow"
+    },
+    {
+      "name": "Flask",
+      "percent": "60",
+      "color": "yellow"
+    },
+    {
+      "name": "Dockers",
+      "percent": "60",
+      "color": "yellow"
+    },
+    {
+      "name": "OpenStack",
+      "percent": "50",
+      "color": "yellow"
+    },
+    {
+      "name": "Amazon Web Service",
+      "percent": "60",
+      "color": "dark-blue"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "percent": "80",
+      "color": "dark-blue"
+    },
+    {
+      "name": "VSCode",
+      "percent": "70",
+      "color": "dark-blue"
+    },
+    {
+      "name": "Eclipse",
+      "percent": "70",
+      "color": "dark-blue"
+    },
+    {
+      "name": "Intellij",
+      "percent": "60",
+      "color": "dark-blue"
+    }
+  ]
+}

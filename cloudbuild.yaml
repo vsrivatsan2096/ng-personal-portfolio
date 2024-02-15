@@ -1,0 +1,16 @@
+steps:
+  - name: node
+    entrypoint: npm
+    args: ['install']
+  - name: node
+    entrypoint: npm
+    args: ['run', 'build-prod']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'asia.gcr.io/personal-portfolio-vsrivatsan2096/angular:latest', '.' ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'asia.gcr.io/personal-portfolio-vsrivatsan2096/angular:latest']
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args: ['run', 'deploy', 'personal-website', '--image', 'asia.gcr.io/personal-portfolio-vsrivatsan2096/angular:latest', '--region', 'asia-south1']
+options:
+  logging: CLOUD_LOGGING_ONLY
