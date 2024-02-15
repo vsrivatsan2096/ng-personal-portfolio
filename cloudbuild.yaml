@@ -6,11 +6,11 @@ steps:
     entrypoint: npm
     args: ['run', 'build-prod']
   - name: 'gcr.io/cloud-builders/docker'
-    args: [ 'build', '-t', 'asia-south1-docker.pkg.dev/ng-personal-portfolio/angular-app:latest', '.' ]
+    args: [ 'build', '-t', 'asia-south1-docker.pkg.dev/ng-personal-portfolio/angular-app/frontend:latest', '.' ]
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'asia-south1-docker.pkg.dev/ng-personal-portfolio/angular-app:latest']
+    args: ['push', 'asia-south1-docker.pkg.dev/ng-personal-portfolio/angular-app/frontend:latest']
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
-    args: ['run', 'deploy', 'ng-personal-portfolio', '--image', 'asia-south1-docker.pkg.dev/ng-personal-portfolio/angular-app:latest', '--region', 'asia-south1']
+    args: ['run', 'deploy', 'ng-personal-portfolio', '--image', 'asia-south1-docker.pkg.dev/ng-personal-portfolio/angular-app/frontend:latest', '--region', 'asia-south1']
 options:
   logging: CLOUD_LOGGING_ONLY
