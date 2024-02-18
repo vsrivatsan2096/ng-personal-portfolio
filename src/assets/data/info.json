@@ -52,6 +52,8 @@
   ],
   "certificates": [
     "assets/certificates/Google Cloud Platform/Professional Cloud Developer",
+	"assets/certificates/Software Architecture & Technology of Large-Scale Systems/Software Architecture & Technology of Large-Scale Systems",
+    "assets/certificates/Java Design Patterns & SOLID Design Principles/Java Design Patterns & SOLID Design Principles",
     "assets/certificates/AlgoExpert/AlgoExpert",
     "assets/certificates/Angular/Angular - The Complete Guide",
     "assets/certificates/deeplearning.ai/Coursera MFWS5KG9XKA4",
@@ -60,7 +62,6 @@
     "assets/certificates/deeplearning.ai/Coursera UGEQVYSFQGBB",
     "assets/certificates/deeplearning.ai/Coursera VC4NBMGGNDEM",
     "assets/certificates/deeplearning.ai/Coursera W22KDD7569D5",
-    "assets/certificates/Java Design Patterns & SOLID Design Principles/Java Design Patterns & SOLID Design Principles",
     "assets/certificates/MongoDB/mongo-m001",
     "assets/certificates/MongoDB/mongo-m220p",
     "assets/certificates/Programming for Everybody/Coursera 4UGTADYAUGLP",
